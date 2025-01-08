@@ -1,4 +1,6 @@
 # StudyMaterials
 This is my first Git Repository
+<br>
 Author: Manohar Kumar
-This repository is going to be the complete journey of study of GIT/GitHub/GitBash and Terraform henceafter. 
+<br>
+This repository is going to be the complete journey of my study of GIT/GitHub/GitBash and Terraform henceafter. 
