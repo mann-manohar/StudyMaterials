@@ -1,0 +1,92 @@
+>> Created Github account on Github.com
+https://github.com/mann-manohar
+>> Created new Private Repository with the name StudyMaterials
+https://github.com/mann-manohar/StudyMaterials
+>> Added the Readme
+>> Edited the Readme
+>> Added Br code <br> to add the text in next line (HTML Coding - Read More). 
+>> Installed the Visual Studio Code.
+>> Installed GitBash.
+>> Git Setup Commands:
+
+SETUP
+Configuring user information used across all local repositories
+git config --global user.name “[firstname lastname]”
+set a name that is identifiable for credit when review version history
+git config --global user.email “[valid-email]”
+set an email address that will be associated with each history marker
+git config --global color.ui auto
+set automatic command line coloring for Git for easy reviewing
+git config --list
+To list all the configurations.
+
+
+
+
+>>  Opened Visual Studio Code. 
+>> Cloned my Github Repository "Study Material" with Visual Studio Code. To clone Copy the repository code on the Github and run command "Git clone repourl". Repository get cloned after browser authentication. All the files on my Github Repository started showing up on the Visual Studio Code. 
+
+
+
+Git Commands:
+git ls (List the files)
+Git ls -a  or git ls -hidden (List the hidden files)
+Git Status (Shows the current status of our code, whether modified, untracked, staged, unmodified). 
+
+When no changes made, it will show: Your branch is up to date with 'origin/main'
+
+
+
+When you made the changes on VS Code but GitHub its not updated, the status will show modified on the file name and the color will change 
+
+
+and also when you run the command git status it shows the message ":Changes not staged for commit" and also the file which is modified in red color. 
+If a new file is added it will show the status "Untracked"
+
+
+
+To add the changes: Run the command "git add filename". It shows that the file is added and staged for commit in green. 
+
+
+To add all files at once just type the command "git add .". It stages all the changes at once. 
+
+
+
+>> To save the staged changes run the command "git commit -m "message that you want, the changes that you made". 
+>> When you run the command Git status after that you see the message " nothing to commit". 
+It also gives a message that your branch is ahead of origin/main by 1 commit. Which means that we are one commit ahead on VSCode as compared to our source GitHub repository. 
+
+
+>> To further upload the local repo (VSCode/GitBash) content to Remote Repo (GitHub). 
+git push origin main 
+
+
+
+
+
+How to initiate a repository from local (VsCode) to remote?
+
+>> To make a new directory: type the command "mkdir foldername". Created a new folder named "Local Repo". 
+
+>> To initiate the git in that directory Type the command: git init
+>> After the Git is initiated, you can run the command ls -hidden to check if a new .git file has been created. This means that now our new repo has become the git repo. 
+
+
+
+>> Further created two files under the Local Repo directory with the names "Index.html" and "Style.css". 
+>> Now we want to check the status. Ran the command git status. It shows 2 untracked files on branch main. 
+
+
+>> Yun the command "Git add ." to stage all changes.
+>> Further run Git Commit -m "message". 
+>> Now after commit when we run git status it shows the message nothing to commit. Working tree clean. 
+>> Further to add the local repository to Github, we create a new repository on Github and copy the repository url.  
+>> Run the command git remote add origin url
+
+
+
+>> To verify run the command git remote -v
+>> To check which branch we are: Run the command git branch. 
+>> To change the branch name: git branch -M new branchname
+>>
+
